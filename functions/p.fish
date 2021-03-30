@@ -7,13 +7,13 @@ function p
 
            if test -e "$p/Pipfile"
               set -lx PIPENV_PIPFILE "$p/Pipfile"
-              ~/.local/bin/pipenv run ipython $argv
+              pipenv run ipython $argv
               return
            end
 
            echo "not in pip and no Pipfile"
         else 
-           ~/.local/bin/pipenv run ipython $argv
+           pipenv run ipython $argv
         end
 
 end
