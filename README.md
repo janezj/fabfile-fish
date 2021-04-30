@@ -11,7 +11,7 @@ All functions will try to find pipenv in the current folder or among it's ancest
 Install [fisher](https://github.com/jorgebucaran/fisher) first.
 
 ``` bash
-fisher install janezj/fabric-fish
+fisher install janezj/fabfile-fish
 ```
 
 ## Functions
